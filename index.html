@@ -6,26 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <title>Patriki Maria</title>
 </head>
-<body>
+<body class="backround-light-grey">
   <header>
-    <nav class="navbar">
-    <div class="flex space-between">
-      <input type="checkbox" id="switch" class="checkbox">
-      <label for="switch" class="slider">
-        <div class="cyrcle"></div>
-      </label>
-      <div class="flex">
-        <div class="projects">Projects</div>
-        <div class="github"><a href="" class="fa-brands fa-github"></a></div>
-        <div class="linkedin"><a href="" class="fa-brands fa-linkedin"></a></div>
+    <nav id="background" class="navbar backround-light-pink">
+      <div class="flex space-between">
+        <input type="checkbox" id="switch" class="checkbox">
+        <label for="switch" class="slider backround-grey" onClick="toggleDarkMode()">
+          <div class="cyrcle mt-5 ml-10 backround-light-pink">
+          </div>
+        </label>
+        <div class="flex">
+          <div class="projects black">Projects</div>
+          <div class="github-div"><a href="" class="github fa-brands fa-github"></a></div>
+          <div class="linkedin-div"><a href="" class="linkedin fa-brands fa-linkedin"></a></div>
+        </div>
       </div>
-    </div>
     </nav>
   </header>
-  <main></main>
+  <main>
+    <div class="flex space-between">
+      <div class="about z-2">
+        <h2 class="main-text-h2">
+          Patriki Maria
+        </h2>
+        <h3 class="main-text-h3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet varius magna, vitae pretium nulla.
+          Suspendisse sed pretium velit.
+          Curabitur dictum urna augue, nec commodo odio aliquam sed. Morbi justo ipsum, semper et leo in, posuere fringilla ante.
+        </h3>
+      </div>
+      <div id="myId" class="relative z-1">
+        <div class="rectangle-final pink-shapes"></div>
+        <div class="triangle triangle1-final "></div>
+        <div class="triangle triangle2-final "></div>
+        <div id="triangle" class="small-triangle triangle3-final border-color-light-pink"></div>
+        <div id="" class="small-triangle triangle4-final border-color-light-pink"></div>
+        <div class="triangle-big triangle-big-final"></div>
+        <svg height="225" width="225" class="polygon polygon-final">
+          <polygon class="light-blue-fill" points="0,50 112.5,0 225,50 225,175 112.5,225 0, 175"></polygon>
+        </svg>
+        <div class="cyrcle cyrcle-position-final hw-193 pink-shapes">
+          <div class="cyrcle height-width-68 backround-light-grey center"></div>
+        </div>
+      </div>
+    </div>
+  </main>
   <footer></footer>
   <script src="https://kit.fontawesome.com/2159ac9c68.js" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>
