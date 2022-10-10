@@ -65,7 +65,7 @@ button {
 
 .navbar {
   width: 100%;
-  height: 77px;
+  height: 80px;
 }
 
 .projects {
@@ -743,6 +743,46 @@ body {
   padding-bottom: 100px;
 }
 
+.m-150 {
+  margin: 150px;
+}
+
+.m-l-150 {
+  margin-left: 150px;
+}
+
+.m-r-150 {
+  margin-right: 150px;
+}
+
+.m-t-150 {
+  margin-top: 150px;
+}
+
+.m-b-150 {
+  margin-bottom: 150px;
+}
+
+.p-150 {
+  padding: 150px;
+}
+
+.p-l-150 {
+  padding-left: 150px;
+}
+
+.p-r-150 {
+  padding-right: 150px;
+}
+
+.p-t-150 {
+  padding-top: 150px;
+}
+
+.p-b-150 {
+  padding-bottom: 150px;
+}
+
 .m-center {
   margin-left: auto;
   margin-right: auto;
@@ -793,84 +833,192 @@ body {
   scrollbar-width: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.z-index3 {
+  z-index: 3;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .w-10 {
   width: 10%;
+}
+
+.min-w-10 {
+  min-width: 10%;
 }
 
 .min-h-10 {
   min-height: 10%;
 }
 
+.h-10 {
+  height: 10%;
+}
+
 .w-20 {
   width: 20%;
+}
+
+.min-w-20 {
+  min-width: 20%;
 }
 
 .min-h-20 {
   min-height: 20%;
 }
 
+.h-20 {
+  height: 20%;
+}
+
 .w-30 {
   width: 30%;
+}
+
+.min-w-30 {
+  min-width: 30%;
 }
 
 .min-h-30 {
   min-height: 30%;
 }
 
+.h-30 {
+  height: 30%;
+}
+
 .w-40 {
   width: 40%;
+}
+
+.min-w-40 {
+  min-width: 40%;
 }
 
 .min-h-40 {
   min-height: 40%;
 }
 
+.h-40 {
+  height: 40%;
+}
+
 .w-50 {
   width: 50%;
+}
+
+.min-w-50 {
+  min-width: 50%;
 }
 
 .min-h-50 {
   min-height: 50%;
 }
 
+.h-50 {
+  height: 50%;
+}
+
 .w-60 {
   width: 60%;
+}
+
+.min-w-60 {
+  min-width: 60%;
 }
 
 .min-h-60 {
   min-height: 60%;
 }
 
+.h-60 {
+  height: 60%;
+}
+
 .w-70 {
   width: 70%;
+}
+
+.min-w-70 {
+  min-width: 70%;
 }
 
 .min-h-70 {
   min-height: 70%;
 }
 
+.h-70 {
+  height: 70%;
+}
+
 .w-80 {
   width: 80%;
+}
+
+.min-w-80 {
+  min-width: 80%;
 }
 
 .min-h-80 {
   min-height: 80%;
 }
 
+.h-80 {
+  height: 80%;
+}
+
 .w-90 {
   width: 90%;
+}
+
+.min-w-90 {
+  min-width: 90%;
 }
 
 .min-h-90 {
   min-height: 90%;
 }
 
+.h-90 {
+  height: 90%;
+}
+
 .w-100 {
   width: 100%;
 }
 
+.min-w-100 {
+  min-width: 100%;
+}
+
 .min-h-100 {
   min-height: 100%;
+}
+
+.h-100 {
+  height: 100%;
 }
 
 .radius-10 {
@@ -882,7 +1030,16 @@ body {
 }
 
 .vp-height {
-  height: 100vh;
+  height: calc(100vh - 80px);
+}
+
+.min-vp-height {
+  min-height: 100vh;
+}
+
+.card-button {
+  bottom: 20px;
+  left: calc(50% - 115px);
 }
 
 /*# sourceMappingURL=main.css.map */

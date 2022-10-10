@@ -16,8 +16,16 @@ $sizes:(
     width: $value;
   }
 
+  .min-w-#{$size}{
+    min-width: $value;
+  }
+
   .min-h-#{$size}{
     min-height: $value;
+  }
+
+  .h-#{$size} {
+    height: $value;
   }
 }  
 
@@ -30,5 +38,9 @@ $sizes:(
 }
 
 .vp-height{
-  height: 100vh;
+  height: calc(100vh - 80px);
+}
+
+.min-vp-height{
+  min-height: 100vh;
 }

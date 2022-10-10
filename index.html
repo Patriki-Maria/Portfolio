@@ -12,7 +12,7 @@
 <body class="backround-light-grey">
 
   <header>
-    <nav id="background" class="navbar backround-light-pink">
+    <nav id="background" class="navbar backround-light-pink fixed top-0 z-index3">
       <div class="flex space-between">
         <input type="checkbox" id="switch" class="checkbox">
         <label for="switch" class="slider backround-grey" onClick="toggleDarkMode()">
@@ -28,8 +28,8 @@
     </nav>
   </header>
 
-  <main class="p-40">
-    <div class="flex space-between vp-height p-t-100">
+  <main class="p-l-40 p-r-40 m-t-80">
+    <div id="about" class="flex space-between vp-height p-t-20">
 
       <div class="about z-2">
         <h2 class="main-text-h2">
@@ -42,7 +42,7 @@
         </h3>
       </div>
 
-      <div id="myId" class="relative z-1">
+      <div class="relative z-1">
         <div class="rectangle-final pink-shapes"></div>
         <div class="triangle triangle1-final "></div>
         <div class="triangle triangle2-final "></div>
@@ -59,37 +59,39 @@
 
     </div>
 
-    <div class= "flex overflow-x-scroll scrollbar">
-      <div class="flex w-100 flex-shrink">
+    <div id="carousel" class= "flex overflow-x-scroll scrollbar vp-height overflow-y-hidden p-t-40 p-b-40">
+      <div id="project1" class="flex w-100 flex-shrink">
         <div class="flex wrap space-between w-50 p-r-10">
-          <div class="w-50 p-r-5 p-b-5"><img class="w-100 cover min-h-100" src="./imgs/project1.png" alt="project 1"></div>
-          <div class="w-50 p-l-5 p-b-5"><img class="w-100 cover min-h-100" src="./imgs/project2.png" alt="project 2"></div>
-          <div class="w-100 p-t-5"><img class="w-100" src="./imgs/project3.png" alt="project 3"></div>
+          <div class="w-50 p-r-5 p-b-5 relative"><img class="w-100 cover min-h-100" src="./imgs/project1.png" alt="project 1"></div>
+          <div class="w-50 p-l-5 p-b-5 relative"><img class="w-100 cover min-h-100" src="./imgs/project2.png" alt="project 2"></div>
+          <div class="w-100 p-t-5 relative"><img class="w-100 cover h-100" src="./imgs/project3.png" alt="project 3"></div>
         </div>
-        <div class="background-light-oppaccity radius-10 w-30 p-l-10 m-center border-pink">
+        <div class="relative background-light-oppaccity radius-10 w-30 p-l-10 m-center border-pink p-20">
           <div class="h4 p-t-40">GEO PROGECT</div>
           <div class="h5 p-t-40">A responsive Figma design for a  geometrical app</div>
-          <button class="m-center block p-10 p-l-60 p-r-60 m-t-80 button button-text">Figma</button>
+          <button class="card-button absolute m-center block p-10 p-l-60 p-r-60 button button-text">Figma</button>
         </div>
       </div>
 
-      <div class="flex w-100 flex-shrink">
+      <div id="project2" class="flex w-100 flex-shrink">
         <div class="flex wrap space-between w-50 p-r-10">
-          <div class="w-50 p-r-5 p-b-5"><img class="w-100 cover min-h-100" src="./imgs/project1.png" alt="project 1"></div>
-          <div class="w-50 p-l-5 p-b-5"><img class="w-100 cover min-h-100" src="./imgs/project2.png" alt="project 2"></div>
-          <div class="w-100 p-t-5"><img class="w-100" src="./imgs/project3.png" alt="project 3"></div>
+          <div class="w-50 p-r-5 p-b-5relative"><img class="w-100 cover min-h-100" src="./imgs/project1.png" alt="project 1"></div>
+          <div class="w-50 p-l-5 p-b-5relative"><img class="w-100 cover min-h-100" src="./imgs/project2.png" alt="project 2"></div>
+          <div class="relative w-100 p-t-5"><img class="w-100 cover h-100" src="./imgs/project3.png" alt="project 3"></div>
         </div>
-        <div class="background-light-oppaccity radius-10 w-30 p-l-10 m-center border-pink">
+        <div class="background-light-oppaccity radius-10 w-30 p-l-10 m-center border-pink p-20">
           <div class="h4 p-t-40">GEO PROGECT</div>
           <div class="h5 p-t-40">A responsive Figma design for a  geometrical app</div>
-          <button class="m-center block p-10 p-l-60 p-r-60 m-t-80 button button-text">Figma</button>
+          <button class="m-center block p-10 p-l-60 p-r-60 button button-text">Figma</button>
         </div>
       </div>
     </div>
 
   </main>
 
-  <footer></footer>
+  <footer id="footer" class="m-t-40" style="height:80px;background-color:black;color:white;text-align:center;font-size:80px;">
+    This is Footer
+  </footer>
 
   <script src="https://kit.fontawesome.com/2159ac9c68.js" crossorigin="anonymous"></script>
   <script src="./js/index.js"></script>
