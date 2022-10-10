@@ -1042,4 +1042,10 @@ body {
   left: calc(50% - 115px);
 }
 
+.footer {
+  height: 80px;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
 /*# sourceMappingURL=main.css.map */
