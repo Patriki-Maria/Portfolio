@@ -4,11 +4,103 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <title>Patriki Maria</title>
 </head>
-<body>
-  
+<body class="backround-light-grey">
+
+  <header>
+    <nav id="background" class="navbar backround-light-pink fixed top-0 z-index3">
+      <div class="flex space-between">
+        <input type="checkbox" id="switch" class="checkbox">
+        <label for="switch" class="slider backround-grey" onClick="toggleDarkMode()">
+          <div class="cyrcle mt-5 ml-10 backround-light-pink">
+          </div>
+        </label>
+        <div class="flex">
+          <div class="projects black">Projects</div>
+          <div class="github-div"><a href="" class="github fa-brands fa-github"></a></div>
+          <div class="linkedin-div"><a href="" class="linkedin fa-brands fa-linkedin"></a></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="p-l-40 p-r-40 m-t-80">
+    <div id="about" class="flex space-between vp-height p-t-20">
+
+      <div class="about z-2">
+        <h2 class="main-text-h2">
+          Patriki Maria
+        </h2>
+        <h3 class="main-text-h3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet varius magna, vitae pretium nulla.
+          Suspendisse sed pretium velit.
+          Curabitur dictum urna augue, nec commodo odio aliquam sed. Morbi justo ipsum, semper et leo in, posuere fringilla ante.
+        </h3>
+      </div>
+
+      <div class="relative z-1">
+        <div class="rectangle-final pink-shapes"></div>
+        <div class="triangle triangle1-final "></div>
+        <div class="triangle triangle2-final "></div>
+        <div id="triangle" class="small-triangle triangle3-final border-color-light-pink"></div>
+        <div id="" class="small-triangle triangle4-final border-color-light-pink"></div>
+        <div class="triangle-big triangle-big-final"></div>
+        <svg height="225" width="225" class="polygon polygon-final">
+          <polygon class="light-blue-fill" points="0,50 112.5,0 225,50 225,175 112.5,225 0, 175"></polygon>
+        </svg>
+        <div class="cyrcle cyrcle-position-final hw-193 pink-shapes">
+          <div class="cyrcle height-width-68 backround-light-grey center"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="carousel" class= "flex overflow-x-scroll scrollbar vp-height overflow-y-hidden p-t-40 p-b-40">
+      <div id="project1" class="flex w-100 flex-shrink">
+        <div class="flex wrap space-between w-50 p-r-10">
+          <div class="w-50 p-r-5 p-b-5 relative"><img class="w-100 cover min-h-100" src="./imgs/project1.png" alt="project 1"></div>
+          <div class="w-50 p-l-5 p-b-5 relative"><img class="w-100 cover min-h-100" src="./imgs/project2.png" alt="project 2"></div>
+          <div class="w-100 p-t-5 relative"><img class="w-100 cover h-100" src="./imgs/project3.png" alt="project 3"></div>
+        </div>
+        <div class="relative background-light-oppaccity radius-10 w-30 p-l-10 m-center border-pink p-20">
+          <div class="h4 p-t-40">GEO PROGECT</div>
+          <div class="h5 p-t-40">A responsive Figma design for a  geometrical app</div>
+          <button class="card-button absolute m-center block p-10 p-l-60 p-r-60 button button-text">Figma</button>
+        </div>
+      </div>
+
+      <div id="project2" class="flex w-100 flex-shrink">
+        <div class="flex wrap space-between w-50 p-r-10">
+          <div class="w-50 p-r-5 p-b-5 relative"><img class="w-100 cover min-h-100" src="./imgs/project1.png" alt="project 1"></div>
+          <div class="w-50 p-l-5 p-b-5 relative"><img class="w-100 cover min-h-100" src="./imgs/project2.png" alt="project 2"></div>
+          <div class="w-100 p-t-5 relative"><img class="w-100 cover h-100" src="./imgs/project3.png" alt="project 3"></div>
+        </div>
+        <div class="relative background-light-oppaccity radius-10 w-30 p-l-10 m-center border-pink p-20">
+          <div class="h4 p-t-40">GEO PROGECT</div>
+          <div class="h5 p-t-40">A responsive Figma design for a  geometrical app</div>
+          <button class="card-button absolute m-center block p-10 p-l-60 p-r-60 button button-text">Figma</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer id="footer" class="m-t-40 footer backround-light-pink">
+    <div class="flex space-between">
+      <p class="m-t-30 m-l-40">mariap241989@gmail.com</p>
+
+      <div class="flex">
+        <div class="github-div"><a href="" class="github fa-brands fa-github"></a></div>
+        <div class="linkedin-div"><a href="" class="linkedin fa-brands fa-linkedin"></a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/2159ac9c68.js" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>

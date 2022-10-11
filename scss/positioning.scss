@@ -1,0 +1,61 @@
+$pixels: (
+  5: 5px,
+  10: 10px,
+  20: 20px,
+  30: 30px,
+  40: 40px,
+  60: 60px,
+  80: 80px,
+  100: 100px,
+  150: 150px,
+);
+
+
+@each $name, $value in $pixels {
+  .m-#{$name} {
+    margin: $value;
+  }
+
+  .m-l-#{$name} {
+    margin-left: $value;
+  }
+
+  .m-r-#{$name} {
+    margin-right: $value;
+  }
+
+  .m-t-#{$name} {
+    margin-top: $value;
+  }
+
+  .m-b-#{$name} {
+    margin-bottom: $value;
+  }
+
+  .p-#{$name}{
+    padding: $value;
+  }
+
+  .p-l-#{$name}{
+    padding-left: $value;
+  }
+
+  .p-r-#{$name}{
+    padding-right: $value;
+  }
+
+  .p-t-#{$name}{
+    padding-top: $value;
+  }
+
+  .p-b-#{$name}{
+    padding-bottom: $value;
+  }
+
+
+}
+
+.m-center{
+  margin-left: auto;
+  margin-right: auto;
+}

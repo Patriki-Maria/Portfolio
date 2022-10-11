@@ -1,0 +1,71 @@
+.flex{
+  display: flex;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.flex-shrink{
+  flex-shrink: 0;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+
+.cover{
+  object-fit: cover;
+}
+
+.contain{
+  object-fit: contain;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.block {
+  display: block;
+}
+
+.overflow-x-scroll{
+  overflow-x: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar{
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.fixed{
+  position: fixed;
+}
+
+.z-index3{
+  z-index: 3;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow-y-hidden{
+  overflow-y: hidden;
+}
+
+.top-0{
+  top: 0px;
+}
