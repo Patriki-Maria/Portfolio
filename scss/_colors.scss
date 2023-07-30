@@ -1,0 +1,24 @@
+$colors: (
+  primary: #A4B2BB,
+  secondary: #5B7D96,
+  "white": white,
+  link: blue,
+);
+
+@each $name, $value in $colors {
+  .color-#{$name} {
+    color: $value;
+  }
+
+  .bg-color-#{$name} {
+    background-color: $value;
+  }
+
+  .br-color-#{$name} {
+    border-color: $value;
+  }
+
+  .hover-color-#{$name}:hover {
+    color: $value
+  }
+}

@@ -1,0 +1,15 @@
+@import 'reset';
+@import 'positioning';
+@import 'colors';
+@import 'grid';
+@import 'font_awsome';
+@import 'fonts';
+@import 'nav';
+@import 'utilities';
+@import 'main';
+
+.content {
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+}

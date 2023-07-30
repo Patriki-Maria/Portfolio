@@ -1,0 +1,11 @@
+nav a:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 3;
+}
