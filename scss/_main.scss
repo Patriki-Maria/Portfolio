@@ -9,19 +9,19 @@
 .hello-text {
   border-radius: 0 20px 20px 20px;
   border: 1px solid black;
-  max-width: 650px;
+  max-width: 450px;
   right: 0;
-  bottom: -200px;
+  bottom: -50px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .intro-container {
-  max-width: 1500px;
-  margin-bottom: 200px;
+  max-width: 1000px;
+  margin-bottom: 100px;
 }
 
 .img-container {
-  height: 600px;
+  height: 400px;
 }
 
 .project-img {
@@ -65,7 +65,7 @@
 
 @media ((min-width: 590px) and (max-width: 980px)) {
   .hello-text {
-    bottom: -50px;
+    bottom: 30%;
   }
 }
 
@@ -75,6 +75,6 @@
   }
 
   .hello-text {
-    bottom: 35%;
+    bottom: 30%;
   }
 }

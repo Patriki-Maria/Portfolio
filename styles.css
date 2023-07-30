@@ -9835,6 +9835,14 @@ button {
   }
 }
 @media (min-width: 1024px) {
+  .lg-font-size-1_7rem {
+    font-size: 1.7rem;
+  }
+  .lg-line-height-1_7rem {
+    line-height: 1.7rem;
+  }
+}
+@media (min-width: 1024px) {
   .lg-font-size-2rem {
     font-size: 2rem;
   }
@@ -9912,6 +9920,14 @@ button {
 
 .line-height-18pt {
   line-height: 24px;
+}
+
+.font-size-1_7rem {
+  font-size: 1.7rem;
+}
+
+.line-height-1_7rem {
+  line-height: 1.7rem;
 }
 
 .font-size-2rem {
@@ -10039,7 +10055,7 @@ nav {
 }
 
 .word-wrap {
-  word-wrap: none;
+  word-wrap: anywhere;
 }
 
 @media (max-width: 480px) {
@@ -10188,19 +10204,19 @@ nav {
 .hello-text {
   border-radius: 0 20px 20px 20px;
   border: 1px solid black;
-  max-width: 650px;
+  max-width: 450px;
   right: 0;
-  bottom: -200px;
+  bottom: -50px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .intro-container {
-  max-width: 1500px;
-  margin-bottom: 200px;
+  max-width: 1000px;
+  margin-bottom: 100px;
 }
 
 .img-container {
-  height: 600px;
+  height: 400px;
 }
 
 .project-img {
@@ -10244,7 +10260,7 @@ nav {
 
 @media ((min-width: 590px) and (max-width: 980px)) {
   .hello-text {
-    bottom: -50px;
+    bottom: 30%;
   }
 }
 @media (min-width: 981px) {
@@ -10252,11 +10268,11 @@ nav {
     width: 50%;
   }
   .hello-text {
-    bottom: 35%;
+    bottom: 30%;
   }
 }
 .content {
-  max-width: 1700px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
